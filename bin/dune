@@ -1,0 +1,3 @@
+(executable
+ (name tennis)
+ (public_name tennis))
