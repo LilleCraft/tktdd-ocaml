@@ -1,0 +1,3 @@
+(library
+ (name tennis))
+  (env  (ptest (ocamlc_flags (-w +a))))

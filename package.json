@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "test": "dune build -p #{self.name} @runtest"
+    "test": "dune runtest --profile=ptest"
   },
   "dependencies": {
     "@opam/dune": "*",
