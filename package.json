@@ -1,0 +1,26 @@
+{
+  "name": "tktdd-ocaml",
+  "version": "0.1.0",
+  "description": "TKTDD in OCaml",
+  "license": "MIT",
+  "esy": {
+    "build": "dune build -p #{self.name}",
+    "release": {
+      "releasedBinaries": [
+        "tennis"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "dune runtest --profile=ptest"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@opam/alcotest": "^0.7.2",
+    "ocaml": "~4.6.0"
+  },
+  "devDependencies": {
+    "@opam/merlin": "^3.0.3",
+    "ocaml": "~4.6.0"
+  }
+}

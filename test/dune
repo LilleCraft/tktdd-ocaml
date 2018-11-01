@@ -1,0 +1,5 @@
+(test
+ (name test)
+ (libraries Alcotest tennis)
+ )
+ (env  (ptest (ocamlc_flags (-w +a))))
