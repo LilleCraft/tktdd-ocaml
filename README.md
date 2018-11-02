@@ -2,7 +2,7 @@
 
 TKTDD in [OCaml](https://reasonml.github.io) with [esy](https://esy.sh/) workflow + [Dune](https://dune.readthedocs.io/) build system and [Alcotest](https://github.com/mirage/alcotest) test framework
 
-## First time with ReasonML ?
+## First time with OCaml ?
 
 You should do an [Iteration 0](./docs/0.md)
 
